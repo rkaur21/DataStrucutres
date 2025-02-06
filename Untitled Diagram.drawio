@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="TEAiUGBNDaMztdrqRBHC">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Version Control System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="282" y="8" width="225" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="CI/CD Pipeline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="313" y="112" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Build Stage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="42" y="216" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Test Stage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="216" width="133" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Deploy Stage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="216" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Production Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="433" y="360" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Artifact Repository" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="14" y="360" width="195" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Deployment Pipeline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="487" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Orchestration Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="785" y="216" width="202" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Blue-Green" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="728" y="360" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Canary" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="919" y="360" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Rolling Updates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="360" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Monitoring and Logging" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="436" y="487" width="226" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="112" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Deployment" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.41;entryY=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Creates artifacts" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Connected to" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="886" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Connected to" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.98;entryX=0.59;entryY=0;" edge="1" parent="1" source="10" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="606" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Supports deployment strategies" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="Supports deployment strategies" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="973" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Supports deployment strategies" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1164" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="7" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
